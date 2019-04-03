@@ -1,2 +1,2 @@
 # memory-game
-web app game made using react
+react game
