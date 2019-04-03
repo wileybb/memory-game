@@ -1,5 +1,6 @@
 import React from "react"
 import data from "../data.json"
+import PictureCard from "./PictureCard"
 
 class Board extends React.Component {
     constructor() {
@@ -7,11 +8,25 @@ class Board extends React.Component {
         this.state = {
             pictures: data
         }
+        this.handleClick = this.handleClick.bind(this)
+    }
+
+    handleClick(id) {
+        console.log("clicked",id)
     }
 
     render() {
+
+        let pictureArray = data.map(item => {
+            return(
+                <PictureCard item={item} handleClick={this.handleClick}/>
+            )
+        })
+
         return(
-            <h1>h1 </h1>
+            <div>
+                {pictureArray}
+            </div>
         )
     }
 }
