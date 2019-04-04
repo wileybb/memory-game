@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.pictureCard {
+  float: left;
+  padding: 20px;
+}
+img {
+  max-height: 130px;
+  max-width: 130px
+}
