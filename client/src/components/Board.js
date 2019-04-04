@@ -19,7 +19,11 @@ class Board extends React.Component {
     }
     resetGame() {
                 this.setState({ 
-            pictures: this.shuffleData(this.state.pictures),
+            pictures: this.shuffleData(this.state.pictures).map(item=> {
+                item.clicked = false
+                item.matched = false
+                return item
+            }),
             lastClickedType: null,
             lastClickedToken: null,
             score: 0
