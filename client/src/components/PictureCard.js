@@ -20,10 +20,11 @@ function PictureCard(props) {
         return(
             <div className="pictureCard">
                 <h1>{props.item.tokenId}</h1>
-                <img 
+                <img
+                    className ={props.item.clicked?'fadeIn':'fadeOut'}
                     onClick={()=>props.handleClick(props.item)} 
                     src={props.item.image}
-                    style={{opacity: .25}}
+                    // style={{opacity: .25}}
                 />
             </div>
         )

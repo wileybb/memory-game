@@ -21,3 +21,20 @@ img {
   max-height: 130px;
   max-width: 130px
 }
+
+.fadeOut{
+  text-align: center;
+  color: pink;
+  opacity:.1;
+
+  transition: opacity 0.5s;
+
+}
+.fadeIn{
+  text-align: center;
+  color: pink;
+  opacity:1;
+
+  transition: opacity 0.5s 0.5s;
+
+}
