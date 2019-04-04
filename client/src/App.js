@@ -1,8 +1,12 @@
-import React from 'react';
-import Game from './components/Game/Game';
+import React, { Component } from "react"
+import Board from "./components/Board"
 
-function App() {
-    return <Game />;
+class App extends Component {
+  render() {
+    return (
+      <Board />
+    );
+  }
 }
 
 export default App;
