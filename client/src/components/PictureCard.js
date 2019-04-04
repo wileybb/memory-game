@@ -8,17 +8,30 @@ function PictureCard(props) {
     // function handleClick(id) {
     //     console.log("you clicked picture", id)
     // }
-    return(
-        
-        <div>
-            <h1>{props.item.id}</h1>
-            <img 
-                onClick={()=>props.handleClick(props.item.id)} 
-                src={props.item.image}
-            />
-        
-        </div>
-    )
+    if(props.item.clicked === false){
+        return(
+            
+            <div>
+                <h1>{props.item.id}</h1>
+                <img 
+                    onClick={()=>props.handleClick(props.item.id)} 
+                    src={props.item.image}
+                />
+            
+            </div>
+        )
+    } else {
+        return(
+            <div>
+                <h1>{props.item.id}</h1>
+                <img 
+                    onClick={()=>props.handleClick(props.item.id)} 
+                    src={props.item.image}
+                    style={{opacity: .5}}
+                />
+            </div>
+        )
+    }
 }
 
 export default PictureCard

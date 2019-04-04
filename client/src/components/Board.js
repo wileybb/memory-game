@@ -13,6 +13,19 @@ class Board extends React.Component {
 
     handleClick(id) {
         console.log("clicked",id)
+        this.setState(prevState=>{
+            const updatedPictures = prevState.pictures.map(item => {
+                
+                if(item.id === id) {
+                    item.clicked = !item.clicked
+                }
+                return item
+                
+            })
+
+            return { pictures: updatedPictures }
+
+        })
     }
 
     render() {
