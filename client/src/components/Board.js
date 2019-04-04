@@ -18,12 +18,16 @@ class Board extends React.Component {
         this.resetGame = this.resetGame.bind(this)
     }
     resetGame() {
-                this.setState({ 
-            pictures: this.shuffleData(this.state.pictures).map(item=> {
-                item.clicked = false
-                item.matched = false
-                return item
-            }),
+        const shuffledPictures = this.shuffleData(data)
+    
+        const shuffledHiddenPictures = shuffledPictures.map(item => {
+            item.clicked = false
+            item.matched = false
+            return item
+        })
+        
+        this.setState({ 
+            pictures: shuffledHiddenPictures,
             lastClickedType: null,
             lastClickedToken: null,
             score: 0
@@ -136,7 +140,7 @@ class Board extends React.Component {
             <div>
                 <h1>Score: {this.state.score}</h1>
                 <h1>{this.state.headerText}</h1>
-                <button onClick={this.resetGame}>Reset Game</button>
+                <button onClick={this.componentDidMount}>Reset Game</button>
                 {pictureArray}
             </div>
         )
