@@ -1,123 +1,182 @@
 [
   {
-    "id": 1,
+    "tokenId": 1,
+    "typeId": 1,
     "image": "/assets/images/beth.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 2,
+    "tokenId": 2,
+    "typeId": 2,
     "image": "/assets/images/birdperson.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 3,
+    "tokenId": 3,
+    "typeId": 3,
     "image": "/assets/images/evilmorty.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 4,
+    "tokenId": 4,
+    "typeId": 4,
     "image": "/assets/images/gianthead.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 5,
+    "tokenId": 5,
+    "typeId": 1,
     "image": "/assets/images/goldenford.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 6,
+    "tokenId": 6,
+    "typeId": 6,
     "image": "/assets/images/jerry.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 7,
+    "tokenId": 7,
+    "typeId": 7,
     "image": "/assets/images/jessica.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 8,
+    "tokenId": 8,
+    "typeId": 8,
     "image": "/assets/images/meeseeks.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 9,
+    "tokenId": 9,
+    "typeId": 9,
     "image": "/assets/images/morty.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 10,
+    "tokenId": 10,
+    "typeId": 10,
     "image": "/assets/images/mr.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 11,
+    "tokenId": 11,
+    "typeId": 11,
     "image": "/assets/images/rick.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 12,
+    "tokenId": 12,
+    "typeId": 12,
     "image": "/assets/images/summer.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 13,
+    "tokenId": 13,
+    "typeId": 1,
     "image": "/assets/images/beth.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 14,
+    "tokenId": 14,
+    "typeId": 2,
+
     "image": "/assets/images/birdperson.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 15,
+    "tokenId": 15,
+    "typeId": 3,
+
     "image": "/assets/images/evilmorty.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 16,
+    "tokenId": 16,
+    "typeId": 4,
+
     "image": "/assets/images/gianthead.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 17,
+    "tokenId": 17,
+    "typeId": 5,
+
     "image": "/assets/images/goldenford.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 18,
+    "tokenId": 18,
+    "typeId": 6,
+
     "image": "/assets/images/jerry.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 19,
+    "tokenId": 19,
+    "typeId": 7,
+
     "image": "/assets/images/jessica.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 20,
+    "tokenId": 20,
+    "typeId": 8,
+
     "image": "/assets/images/meeseeks.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 21,
+    "tokenId": 21,
+    "typeId": 9,
+
     "image": "/assets/images/morty.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 22,
+    "tokenId": 22,
+    "typeId": 10,
+
     "image": "/assets/images/mr.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 23,
+    "tokenId": 23,
+    "typeId": 11,
+
     "image": "/assets/images/rick.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   },
   {
-    "id": 24,
+    "tokenId": 24,
+    "typeId": 12,
+
     "image": "/assets/images/summer.png",
-    "clicked": false
+    "clicked": false,
+    "matched": false
   }
 
 ]

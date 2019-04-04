@@ -1,20 +1,16 @@
 import React from "react"
 
-// function handleClick() {
-//     console.log("heyo bdayo")
-//     // console.log(this.props.item.id)
-// }
+
 function PictureCard(props) {
-    // function handleClick(id) {
-    //     console.log("you clicked picture", id)
-    // }
-    if(props.item.clicked === true){
+
+
+    if(props.item.clicked === true || props.item.matched === true){
         return(
             
             <div className="pictureCard">
-                <h1>{props.item.id}</h1>
+                <h1>{props.item.tokenId}</h1>
                 <img 
-                    onClick={()=>props.handleClick(props.item.id)} 
+                    onClick={()=>props.handleClick(props.item)} 
                     src={props.item.image}
                 />
             
@@ -23,9 +19,9 @@ function PictureCard(props) {
     } else {
         return(
             <div className="pictureCard">
-                <h1>{props.item.id}</h1>
+                <h1>{props.item.tokenId}</h1>
                 <img 
-                    onClick={()=>props.handleClick(props.item.id)} 
+                    onClick={()=>props.handleClick(props.item)} 
                     src={props.item.image}
                     style={{opacity: .25}}
                 />
