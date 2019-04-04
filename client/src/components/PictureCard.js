@@ -8,10 +8,10 @@ function PictureCard(props) {
     // function handleClick(id) {
     //     console.log("you clicked picture", id)
     // }
-    if(props.item.clicked === false){
+    if(props.item.clicked === true){
         return(
             
-            <div>
+            <div className="pictureCard">
                 <h1>{props.item.id}</h1>
                 <img 
                     onClick={()=>props.handleClick(props.item.id)} 
@@ -22,12 +22,12 @@ function PictureCard(props) {
         )
     } else {
         return(
-            <div>
+            <div className="pictureCard">
                 <h1>{props.item.id}</h1>
                 <img 
                     onClick={()=>props.handleClick(props.item.id)} 
                     src={props.item.image}
-                    style={{opacity: .5}}
+                    style={{opacity: .25}}
                 />
             </div>
         )
