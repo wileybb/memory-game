@@ -29,7 +29,7 @@
   },
   {
     "tokenId": 5,
-    "typeId": 1,
+    "typeId": 5,
     "image": "/assets/images/goldenford.png",
     "clicked": false,
     "matched": false
