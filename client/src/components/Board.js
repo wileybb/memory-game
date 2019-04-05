@@ -160,7 +160,9 @@ class Board extends React.Component {
                 <h1>Score: {this.state.score}</h1>
                 <h1>{this.state.headerText}</h1>
                 <button onClick={this.componentDidMount}>Reset Game</button>
+                <container>
                 {pictureArray}
+                </container>
             </div>
         )
     }

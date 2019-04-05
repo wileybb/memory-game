@@ -15,13 +15,22 @@ code {
 }
 
 .pictureCard {
-  float: left;
+  /* float: left;
   padding: 10px;
   background-color: lightgreen;
   border-style: solid;
   border-color: silver;
-  border-width: 3px;
+  border-width: 3px; */
 
+  background-size: cover;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+  margin: 8px 25px;
+  border: 5px solid rgb(241, 241, 241);
+  border-radius: 3px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
 
 }
 img {
@@ -30,16 +39,47 @@ img {
 }
 
 .fadeOut{
-  text-align: center;
+  /* text-align: center; */
   opacity:.0;
 
   transition: opacity 0.5s;
 
 }
 .fadeIn{
-  text-align: center;
+  /* text-align: center; */
   opacity:1;
 
   transition: opacity 0.5s 0.5s;
 
+}
+
+@media (max-width: 750px) {
+  .click-item {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .click-item {
+    margin: 10px;
+  }
+}
+
+container {
+  display: flex;
+  min-height: 80%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1100px) {
+  .container {
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1100px;
+  }
 }
