@@ -6,6 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: lightgoldenrodyellow;
 }
 
 code {
@@ -15,7 +16,13 @@ code {
 
 .pictureCard {
   float: left;
-  padding: 20px;
+  padding: 10px;
+  background-color: lightgreen;
+  border-style: solid;
+  border-color: silver;
+  border-width: 3px;
+
+
 }
 img {
   max-height: 130px;
@@ -24,15 +31,13 @@ img {
 
 .fadeOut{
   text-align: center;
-  color: pink;
-  opacity:.1;
+  opacity:.0;
 
   transition: opacity 0.5s;
 
 }
 .fadeIn{
   text-align: center;
-  color: pink;
   opacity:1;
 
   transition: opacity 0.5s 0.5s;

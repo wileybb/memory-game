@@ -8,7 +8,6 @@ function PictureCard(props) {
         return(
             
             <div className="pictureCard">
-                <h1>{props.item.tokenId}</h1>
                 <img 
                     onClick={()=>props.handleClick(props.item)} 
                     src={props.item.image}
@@ -19,7 +18,7 @@ function PictureCard(props) {
     } else {
         return(
             <div className="pictureCard">
-                <h1>{props.item.tokenId}</h1>
+           
                 <img
                     className ={props.item.clicked?'fadeIn':'fadeOut'}
                     onClick={()=>props.handleClick(props.item)} 
