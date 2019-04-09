@@ -2,186 +2,146 @@
   {
     "tokenId": 1,
     "typeId": 1,
-    "image": "/assets/images/beth.png",
+    "image": "/assets/images/bearfishing.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 2,
     "typeId": 2,
-    "image": "/assets/images/birdperson.png",
+    "image": "/assets/images/clownfish.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 3,
     "typeId": 3,
-    "image": "/assets/images/evilmorty.png",
+    "image": "/assets/images/arctic-fox.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 4,
     "typeId": 4,
-    "image": "/assets/images/gianthead.png",
+    "image": "/assets/images/deergroup.jpg",
     "clicked": false,
     "matched": false
   },
+
+  
   {
     "tokenId": 5,
     "typeId": 5,
-    "image": "/assets/images/goldenford.png",
+    "image": "/assets/images/lynx.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 6,
     "typeId": 6,
-    "image": "/assets/images/jerry.png",
+    "image": "/assets/images/racoon.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 7,
     "typeId": 7,
-    "image": "/assets/images/jessica.png",
+    "image": "/assets/images/dolphin.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 8,
     "typeId": 8,
-    "image": "/assets/images/meeseeks.png",
+    "image": "/assets/images/quail.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 9,
     "typeId": 9,
-    "image": "/assets/images/morty.png",
+    "image": "/assets/images/egret.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 10,
     "typeId": 10,
-    "image": "/assets/images/mr.png",
+    "image": "/assets/images/otter.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 11,
-    "typeId": 11,
-    "image": "/assets/images/rick.png",
+    "typeId": 1,
+    "image": "/assets/images/bearfishing.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 12,
-    "typeId": 12,
-    "image": "/assets/images/summer.png",
+    "typeId": 2,
+    "image": "/assets/images/clownfish.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 13,
-    "typeId": 1,
-    "image": "/assets/images/beth.png",
+    "typeId": 3,
+    "image": "/assets/images/arctic-fox.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 14,
-    "typeId": 2,
-
-    "image": "/assets/images/birdperson.png",
+    "typeId": 4,
+    "image": "/assets/images/deergroup.jpg",
     "clicked": false,
     "matched": false
-  },
+  },  
   {
     "tokenId": 15,
-    "typeId": 3,
-
-    "image": "/assets/images/evilmorty.png",
+    "typeId": 5,
+    "image": "/assets/images/lynx.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 16,
-    "typeId": 4,
-
-    "image": "/assets/images/gianthead.png",
+    "typeId": 6,
+    "image": "/assets/images/racoon.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 17,
-    "typeId": 5,
-
-    "image": "/assets/images/goldenford.png",
+    "typeId": 7,
+    "image": "/assets/images/dolphin.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 18,
-    "typeId": 6,
-
-    "image": "/assets/images/jerry.png",
+    "typeId": 8,
+    "image": "/assets/images/quail.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 19,
-    "typeId": 7,
-
-    "image": "/assets/images/jessica.png",
+    "typeId": 9,
+    "image": "/assets/images/egret.jpg",
     "clicked": false,
     "matched": false
   },
   {
     "tokenId": 20,
-    "typeId": 8,
-
-    "image": "/assets/images/meeseeks.png",
-    "clicked": false,
-    "matched": false
-  },
-  {
-    "tokenId": 21,
-    "typeId": 9,
-
-    "image": "/assets/images/morty.png",
-    "clicked": false,
-    "matched": false
-  },
-  {
-    "tokenId": 22,
     "typeId": 10,
-
-    "image": "/assets/images/mr.png",
-    "clicked": false,
-    "matched": false
-  },
-  {
-    "tokenId": 23,
-    "typeId": 11,
-
-    "image": "/assets/images/rick.png",
-    "clicked": false,
-    "matched": false
-  },
-  {
-    "tokenId": 24,
-    "typeId": 12,
-
-    "image": "/assets/images/summer.png",
-    "clicked": false,
-    "matched": false
-  },
-  {
-    "image": "/assets/images/Whale-Shark.jpg",
+    "image": "/assets/images/otter.jpg",
     "clicked": false,
     "matched": false
   }
+  
+  
 
 ]

@@ -40,7 +40,7 @@ img {
 
 .fadeOut{
   /* text-align: center; */
-  opacity:.3;
+  opacity: 0;
 
   transition: opacity 0.5s;
 
@@ -98,25 +98,27 @@ h2{
 }
 h3{
   color: gray;
-  text-align: right;
+  text-align: left;
   position: relative;
   bottom: 30px;
-  right: 20px;
+  left: 40px;
 
 }
 button{
   padding: 10px;
-  text-align: right;
+  text-align: left;
   color: purple;
-  float: right;
+  float: left;
   position: relative;
-  bottom: 30px;
-  right: 20px;
+  bottom: 40px;
+  left: 40px;
 }
 
 nav{
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
+  position: relative;
+  padding-left: 50px;
+  padding-right: 100px;
   background: pink;
   padding: 10px;
 }

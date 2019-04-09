@@ -73,7 +73,7 @@ class Board extends React.Component {
         // } else {
         //     console.log("second guess")
         // }
-        if(!this.state.timeOut){
+        if(!this.state.timeOut && !(this.state.lastClickedToken === clickedItem.tokenId)){
             this.setState(prevState=>{
                 const updatedPictures = prevState.pictures.map(item => {
                     if(item.tokenId === clickedItem.tokenId) {

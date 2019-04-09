@@ -5,7 +5,7 @@ function Header (props) {
         <div>
             <h1>Memory Game</h1>
             <h2>{props.text}</h2>
-            <h3>Matches Found: {props.score}</h3>
+            <h3>Matches Found: {props.score}/10</h3>
         </div>
     )
 }
