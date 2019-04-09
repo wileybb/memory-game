@@ -1,6 +1,7 @@
 import React from "react"
 import data from "../data.json"
 import PictureCard from "./PictureCard"
+import Header from "./Header"
 
 class Board extends React.Component {
     constructor() {
@@ -11,7 +12,7 @@ class Board extends React.Component {
             lastClickedToken: null,
             pictures: data,
             score: 0,
-            timeOut: false
+            timeOut: false,
 
         }
         this.handleClick = this.handleClick.bind(this)
@@ -31,7 +32,8 @@ class Board extends React.Component {
             pictures: shuffledHiddenPictures,
             lastClickedType: null,
             lastClickedToken: null,
-            score: 0
+            score: 0,
+            headerText: "Click a card to reveal an image"
 
         });
     }
@@ -157,11 +159,12 @@ class Board extends React.Component {
 
         return(
             <div>
-                <h1>Score: {this.state.score}</h1>
-                <h1>{this.state.headerText}</h1>
-                <button onClick={this.componentDidMount}>Reset Game</button>
+                <nav>
+                    <Header text={this.state.headerText} score={this.state.score} />
+                    <button onClick={this.componentDidMount}>Reset Game</button>
+                </nav>
                 <container>
-                {pictureArray}
+                    {pictureArray}
                 </container>
             </div>
         )

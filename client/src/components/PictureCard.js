@@ -18,7 +18,6 @@ function PictureCard(props) {
     } else {
         return(
             <div className="pictureCard">
-           
                 <img
                     className ={props.item.clicked?'fadeIn':'fadeOut'}
                     onClick={()=>props.handleClick(props.item)} 

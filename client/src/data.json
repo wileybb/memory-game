@@ -177,6 +177,11 @@
     "image": "/assets/images/summer.png",
     "clicked": false,
     "matched": false
+  },
+  {
+    "image": "/assets/images/Whale-Shark.jpg",
+    "clicked": false,
+    "matched": false
   }
 
 ]
